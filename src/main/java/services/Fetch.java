@@ -20,4 +20,10 @@ public class Fetch{
         System.out.println("doAuth");
         return "success";
     }
+    @RequestMapping("/logout")
+    public String  doLogout(){
+        System.out.println("doLogout");
+        return "success";
+
+    }
 }
